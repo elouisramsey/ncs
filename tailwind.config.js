@@ -33,11 +33,10 @@ module.exports = {
       },
       height: {
         half: '70vh'
+      },
+      width: {
+        '5/7': '70%'
       }
     }
-  },
-  variants: {
-    extend: {}
-  },
-  plugins: []
+  }
 }

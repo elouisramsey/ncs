@@ -1,6 +1,5 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 h1,
 h2,
@@ -142,3 +141,5 @@ section.steps__item:hover .arrow {
 .blog_item_admin {
   background-image: url('/boy-pencil.jpg');
 }
+
+@tailwind utilities;
