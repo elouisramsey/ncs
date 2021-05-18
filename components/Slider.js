@@ -32,7 +32,7 @@ const Sliders = () => {
       if (!pause && slider) {
         slider.next()
       }
-    }, 4000)
+    }, 3000)
     return () => {
       clearInterval(timer.current)
     }

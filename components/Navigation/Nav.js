@@ -222,29 +222,29 @@ const Nav = () => {
           />
         </section>
         <section className='flex items-center justify-between w-2/3'>
-          <ul className='flex flex-col mt-4 md:flex-row md:items-center md:mt-0 md:pt-0 md:ml-auto justify-between h-2/3 md:h-full w-3/5'>
-            <li>
+          <ul className='flex flex-col mt-4 md:flex-row md:items-center md:mt-0 md:pt-0 md:ml-auto h-2/3 md:h-full w-3/5'>
+            <li className='mr-8'>
               <Link href='/'>
                 <a className='text-sm text-sec transition-all border-b border-solid border-transparent hover:pb-1 duration-150 ease-in-out hover:border-pri font-light'>
                   Work with us
                 </a>
               </Link>
             </li>
-            <li>
+            <li className='mr-8'>
               <Link href='/'>
                 <a className='text-sm text-sec transition-all border-b border-solid border-transparent hover:pb-1 duration-150 ease-in-out hover:border-pri font-light'>
                   Academics
                 </a>
               </Link>
             </li>
-            <li>
+            <li className='mr-8'>
               <Link href='/'>
                 <a className='text-sm text-sec transition-all border-b border-solid border-transparent hover:pb-1 duration-150 ease-in-out hover:border-pri font-light'>
                   Campuses
                 </a>
               </Link>
             </li>
-            <li>
+            <li className='mr-8'>
               <Link href='/'>
                 <a className='text-sm text-sec transition-all border-b border-solid border-transparent hover:pb-1 duration-150 ease-in-out hover:border-pri font-light'>
                   Admissions
