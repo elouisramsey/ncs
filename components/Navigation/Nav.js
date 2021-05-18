@@ -221,8 +221,8 @@ const Nav = () => {
             className='object-cover'
           />
         </section>
-        <section className='flex items-center justify-between w-3/5'>
-          <ul className='flex flex-col mt-4 md:flex-row md:items-center md:mt-0 md:pt-0 md:ml-auto justify-between h-2/3 md:h-full w-3/4'>
+        <section className='flex items-center justify-between w-2/3'>
+          <ul className='flex flex-col mt-4 md:flex-row md:items-center md:mt-0 md:pt-0 md:ml-auto justify-between h-2/3 md:h-full w-3/5'>
             <li>
               <Link href='/'>
                 <a className='text-sm text-sec transition-all border-b border-solid border-transparent hover:pb-1 duration-150 ease-in-out hover:border-pri font-light'>
